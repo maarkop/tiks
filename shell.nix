@@ -18,3 +18,8 @@ pkgs.mkShell {
 
 #     dotnet ef migrations add DodatiNoviModeli
 #     dotnet ef database update
+#     dotnet run
+#     dotnet test ali u test folderu
+
+
+#     http://localhost:5239/swagger/index.html
