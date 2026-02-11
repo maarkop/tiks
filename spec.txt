@@ -1,0 +1,25 @@
+Opis projekta - Testiranje i kvalitet softvera 2025./2026. god. 
+
+Projekte je moguće raditi pojedinačno ili u parovima (tim može imati maksimalno 2 člana). 
+
+Moguće je koristiti postojeću Web aplikaciju razvijenu, u .NET Core tehnologiji, od strane jednog od ili svih članova tima za potrebe nekog drugog predmeta u okviru kurikuluma Katedre za računarstvo. 
+
+Ukoliko tim razvija novu aplikaciju za potrebe ovog kursa, potrebno je kreirati Web aplikaciju koja će posedovati klijentski i serverski deo.  
+
+Serverski deo aplikacije (eng. backend) treba da bude kreiran kao API korišćenjem .NET Core tehnologije. Aplikacija treba da omogući izvršenje CRUD operacija nad domenskim entitetima pri čemu je minimalni broj domenskih entiteta - 2 entiteta po članu tima. Za svaku od operacija API-a potrebno je kreirati po 3 komponentna testa korišćenjem NUnit biblioteke. 
+
+Klijentski deo aplikacije (eng. frontend) treba da poseduje interfejs koji omogućava unos parametara kako bi bilo moguće izvršiti svaku od operacija serverskog dela aplikacije (API-a). Za kreirani klijentski deo neophodno je kreirati testove korišćenjem Playwright okruženja. Tehnologija klijentskog dela aplikacije nije unapred definisana i izbor tehnologije je prepušten članovima tima. Predlozi: Razor Core, React, Angular, HTML + JavaScript, Vue. 
+
+Ukoliko Web aplikacija koristi bazu podataka, neophodno je posedovati bazu instaliranu i podešenu na računaru koji će se koristiti za demonstraciju rada projekta. Neophodno je pripremiti testne podatke u svrhe demonstracije rada prjekta. Test podaci mogu biti kreirani u obliku skripte ili Web aplikacija može posedovati metode za definisanje (upis) testnih podataka. 
+
+Svaki tim predaje projekat u obliku sledećih komponenti koje se mogu pokrenuti i izvršavati nezavisno, i to: 
+
+    Web aplikacija 
+
+    Komponentni testovi (NUnit) 
+
+    End-to-end testovi i API testovi  (Playwright, korišćenjem .NET Core tehnologije)  
+
+Nakon predaje projekta, u svakom od ispitnih rokova će biti organizovan termin za odbranu projekata u okviru koga će članovi tima odgovarati na pitanja predmetnih profesora vezana za realizovani projekat. 
+
+ 

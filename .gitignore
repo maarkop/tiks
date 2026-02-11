@@ -1,0 +1,42 @@
+## .NET specifično
+bin/
+obj/
+out/
+[Dd]ebug/
+[Rr]elease/
+
+## Baza podataka i Docker (pošto vidim db_data folder)
+db_data/
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+## Korisnička podešavanja (lokalni portovi i tajne)
+appsettings.Development.json
+.vscode/
+.idea/
+*.user
+*.userosscache
+*.sln.docstates
+
+## Logovi
+logfile
+*.log
+
+## OS specifično
+.DS_Store
+Thumbs.db
+
+## Nix specifično
+.direnv/
+.nix-node/
+result
+result-*
+
+## Playwright (ako kolega instalira browsere lokalno u folderu)
+pw-browser/
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
